@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-resolve-getter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return an accessor function for retrieving an element from an array-like object.",
   "license": "Apache-2.0",
   "author": {
