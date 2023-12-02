@@ -45,19 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-resolve-getter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-resolve-getter/tags). For example,
-
-```javascript
-import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@v0.1.0-esm/index.mjs';
+var resolveGetter = require( '@stdlib/array-base-resolve-getter' );
 ```
 
 #### resolveGetter( x )
@@ -105,14 +116,9 @@ The returned accessor function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
-import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@esm/index.mjs';
+```javascript
+var filled = require( '@stdlib/array-filled' );
+var resolveGetter = require( '@stdlib/array-base-resolve-getter' );
 
 var arr = filled( 1.0, 10, 'float64' );
 var v = resolveGetter( arr )( arr, 2 );
@@ -149,10 +155,6 @@ v = resolveGetter( arr )( arr, 2 );
 arr = filled( 9, 10, 'uint8c' );
 v = resolveGetter( arr )( arr, 2 );
 // returns 9
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -184,7 +186,7 @@ v = resolveGetter( arr )( arr, 2 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -214,8 +216,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-base-resolve-getter.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-base-resolve-getter
 
-[test-image]: https://github.com/stdlib-js/array-base-resolve-getter/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/array-base-resolve-getter/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/array-base-resolve-getter/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-base-resolve-getter/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-base-resolve-getter/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-base-resolve-getter?branch=main
@@ -244,7 +246,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-resolve-getter/main/LICENSE
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/esm
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
 </section>
 
