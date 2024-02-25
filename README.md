@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@esm/index.mjs';
+import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@v0.2.1-esm/index.mjs';
 ```
 
 #### resolveGetter( x )
@@ -107,7 +107,7 @@ The returned accessor function accepts the following arguments:
 <script type="module">
 
 import filled from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled@esm/index.mjs';
-import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@esm/index.mjs';
+import resolveGetter from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-resolve-getter@v0.2.1-esm/index.mjs';
 
 var arr = filled( 1.0, 10, 'float64' );
 var v = resolveGetter( arr )( arr, 2 );
