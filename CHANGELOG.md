@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.2">
 
-## Unreleased (2024-07-17)
+## 0.2.2 (2024-07-29)
 
 <section class="commits">
 
@@ -43,6 +43,52 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.1 (2024-02-25)
 
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`8414978`](https://github.com/stdlib-js/stdlib/commit/841497835659ea4c07e4b77b6750525763424763) - **test:** fix array instantiation and resolve lint errors _(by Athan Reines)_
+-   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-11-23)
+
 <section class="features">
 
 ### Features
@@ -59,8 +105,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
--   [`8414978`](https://github.com/stdlib-js/stdlib/commit/841497835659ea4c07e4b77b6750525763424763) - **test:** fix array instantiation and resolve lint errors _(by Athan Reines)_
--   [`dea49e0`](https://github.com/stdlib-js/stdlib/commit/dea49e03ab5571233e3da26835a6a6d3256d5737) - **docs:** use single quotes in require calls instead of backticks _(by Philipp Burckhardt)_
 -   [`d52aa7d`](https://github.com/stdlib-js/stdlib/commit/d52aa7d3c90a96bf90271f455258db92e277923b) - **feat:** add `array/base/resolve-getter` _(by Athan Reines)_
 
 </details>
@@ -73,10 +117,9 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 1 person contributed to this release. Thank you to this contributor:
 
 -   Athan Reines
--   Philipp Burckhardt
 
 </section>
 
