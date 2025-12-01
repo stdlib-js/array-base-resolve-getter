@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-12-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`d07452d`](https://github.com/stdlib-js/stdlib/commit/d07452d17c9e97ff292fb8882044000aeed0fe1c) - **docs:** improve doctests for complex number instances in `array/base/resolve-getter` [(#8669)](https://github.com/stdlib-js/stdlib/pull/8669) _(by Aryan kumar, Athan Reines, stdlib-bot)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`20dea8a`](https://github.com/stdlib-js/stdlib/commit/20dea8af2b14181aa75354f7e3aeb65b955904b9) - **docs:** remove extraneous newline _(by Athan Reines)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
 -   Athan Reines
 -   Philipp Burckhardt
 
